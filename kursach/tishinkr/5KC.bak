@@ -1,0 +1,13 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity 5KC is
+    port (
+        gh: in STD_LOGIC
+    );
+end 5KC;
+
+architecture 5KC_arch of 5KC is
+begin
+  -- <<enter your statements here>>
+end 5KC_arch;

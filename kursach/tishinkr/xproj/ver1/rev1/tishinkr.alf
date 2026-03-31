@@ -1,0 +1,32 @@
+Release 4.1.03i - ngdanno E.33
+Copyright (c) 1995-2001 Xilinx, Inc.  All rights reserved.
+Reading .ngm file "map.ngm"...
+
+Loading design for application ngdanno from file tishinkr.ncd.
+   "tishinkr" is an NCD, version 2.36, device xcs10, package pc84, speed -3
+Loading device for application ngdanno from file '4005e.nph' in environment
+C:/Xilinx.
+Building NGA image...
+Annotating NGA image...
+Distributing delays...
+WARNING:Anno:197 - NGDAnno found 6 physical component(s) for which 100 percent
+   back-annotation is not possible. Simulation models for these components will
+   be constructed from the NCD. Rerun NGDAnno with the -report option for
+   additional details, including any net and instance names which are lost in
+   this process.
+Creating Guaranteed setup and hold checks... 
+WARNING:Anno:152 - default voltage/temp values not available in speed file. 
+   Using ngdanno defaults of 4.75V and  85C.
+Resolving logical and physical hierarchies...
+WARNING:Anno:178 - 8 hierarchical blocks were flattened during back-annotation.
+   Rerun NGDAnno with the -report option to see a list of these blocks, as well
+   as additional information about nets and instances that may not have their
+   original names.
+Running NGD DRC...
+WARNING:Ngd:333 - NOTE: This design contains the undriven net "GSR" which you
+   could drive during simulation to get valid results.
+WARNING:Ngd:333 - NOTE: This design contains the undriven net "GTS" which you
+   could drive during simulation to get valid results.
+Writing .nga file "tishinkr.nga"...
+   73 logical models annotated
+   6 physical models annotated

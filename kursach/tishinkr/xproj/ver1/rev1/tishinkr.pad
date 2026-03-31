@@ -1,0 +1,201 @@
+Release 4.1.03i - Par E.33
+Copyright (c) 1995-2001 Xilinx, Inc.  All rights reserved.
+
+Tue Mar 31 03:48:10 2026
+
+Xilinx PAD Specification File
+*****************************
+
+Input file:       map.ncd
+Output file:      tishinkr.ncd
+Part type:        xcs10
+Speed grade:      -3
+Package:          pc84
+
+Pinout by Signal Name:
+-------------------------------|----------------------|--------|-----------|
+          Signal Name          |       Pin Name       | Pin    | Direction |
+                               |                      | Number |           |
+-------------------------------|----------------------|--------|-----------|
+ H10/$Net00043_                |                      | P25    | OUTPUT    |
+ H10/$Net00044_                |                      | P20    | OUTPUT    |
+ H2/CLK11059                   |                      | P35    | INPUT     |
+ H2/GI_GOI                     |                      | P61    | INPUT     |
+ H2/NR_1                       |                      | P60    | INPUT     |
+ H2/NR_2                       |                      | P65    | INPUT     |
+ H2/NZ_1                       |                      | P59    | INPUT     |
+ H2/NZ_2                       |                      | P62    | INPUT     |
+ H3/RG1_D0                     |                      | P46    | INPUT     |
+ H3/RG1_D1                     |                      | P45    | INPUT     |
+ H3/RG1_D2                     |                      | P44    | INPUT     |
+ H3/RG1_D3                     |                      | P40    | INPUT     |
+ H4/RG2_D0                     |                      | P58    | INPUT     |
+ H4/RG2_D1                     |                      | P57    | INPUT     |
+ H4/RG2_D2                     |                      | P56    | INPUT     |
+ H4/RG2_D3                     |                      | P51    | INPUT     |
+ H5/$Net00009_                 |                      | P14    | OUTPUT    |
+ H5/$Net00010_                 |                      | P9     | OUTPUT    |
+ H5/$Net00011_                 |                      | P6     | OUTPUT    |
+ H5/$Net00012_                 |                      | P3     | OUTPUT    |
+ H6/$Net00001_                 |                      | P39    | OUTPUT    |
+ H6/$Net00002_                 |                      | P36    | OUTPUT    |
+ H6/$Net00003_                 |                      | P27    | OUTPUT    |
+ H6/$Net00004_                 |                      | P24    | OUTPUT    |
+ H7/$Net00025_                 |                      | P18    | OUTPUT    |
+ H7/$Net00026_                 |                      | P10    | OUTPUT    |
+ H7/$Net00027_                 |                      | P7     | OUTPUT    |
+ H7/$Net00028_                 |                      | P4     | OUTPUT    |
+ H8/$Net00033_                 |                      | P38    | OUTPUT    |
+ H8/$Net00034_                 |                      | P29    | OUTPUT    |
+ H8/$Net00035_                 |                      | P26    | OUTPUT    |
+ H8/$Net00036_                 |                      | P23    | OUTPUT    |
+ H9/$Net00037_                 |                      | P19    | OUTPUT    |
+ H9/$Net00038_                 |                      | P13    | OUTPUT    |
+ H9/$Net00039_                 |                      | P8     | OUTPUT    |
+ H9/$Net00040_                 |                      | P5     | OUTPUT    |
+ U1/RG3_D0                     |                      | P50    | INPUT     |
+ U1/RG3_D1                     |                      | P49    | INPUT     |
+-------------------------------|----------------------|--------|-----------|
+
+Pinout by Pin Number:
+--------|-------------------------------|----------------------|-----------|
+ Pin    |          Signal Name          |       Pin Name       | Direction |
+ Number |                               |                      |           |
+--------|-------------------------------|----------------------|-----------|
+ P1     |                               | GND                  |           |
+ P2     |                               | VCC                  |           |
+ P3     | H5/$Net00012_                 |                      | OUTPUT    |
+ P4     | H7/$Net00028_                 |                      | OUTPUT    |
+ P5     | H9/$Net00040_                 |                      | OUTPUT    |
+ P6     | H5/$Net00011_                 |                      | OUTPUT    |
+ P7     | H7/$Net00027_                 |                      | OUTPUT    |
+ P8     | H9/$Net00039_                 |                      | OUTPUT    |
+ P9     | H5/$Net00010_                 |                      | OUTPUT    |
+ P10    | H7/$Net00026_                 |                      | OUTPUT    |
+ P11    |                               | VCC                  |           |
+ P12    |                               | GND                  |           |
+ P13    | H9/$Net00038_                 |                      | OUTPUT    |
+ P14    | H5/$Net00009_                 |                      | OUTPUT    |
+ P15    |                               | TDI                  |           |
+ P16    |                               | TCK                  |           |
+ P17    |                               | TMS                  |           |
+ P18    | H7/$Net00025_                 |                      | OUTPUT    |
+ P19    | H9/$Net00037_                 |                      | OUTPUT    |
+ P20    | H10/$Net00044_                |                      | OUTPUT    |
+ P21    |                               | GND                  |           |
+ P22    |                               | VCC                  |           |
+ P23    | H8/$Net00036_                 |                      | OUTPUT    |
+ P24    | H6/$Net00004_                 |                      | OUTPUT    |
+ P25    | H10/$Net00043_                |                      | OUTPUT    |
+ P26    | H8/$Net00035_                 |                      | OUTPUT    |
+ P27    | H6/$Net00003_                 |                      | OUTPUT    |
+ P28    |                               |                      | UNUSED    |
+ P29    | H8/$Net00034_                 |                      | OUTPUT    |
+ P30    |                               | N.C.                 |           |
+ P31    |                               | GND                  |           |
+ P33    |                               | VCC                  |           |
+ P34    |                               | N.C.                 |           |
+ P35    | H2/CLK11059                   |                      | INPUT     |
+ P36    | H6/$Net00002_                 |                      | OUTPUT    |
+ P37    |                               |                      | UNUSED    |
+ P38    | H8/$Net00033_                 |                      | OUTPUT    |
+ P39    | H6/$Net00001_                 |                      | OUTPUT    |
+ P40    | H3/RG1_D3                     |                      | INPUT     |
+ P41    |                               |                      | UNUSED    |
+ P42    |                               | VCC                  |           |
+ P43    |                               | GND                  |           |
+ P44    | H3/RG1_D2                     |                      | INPUT     |
+ P45    | H3/RG1_D1                     |                      | INPUT     |
+ P46    | H3/RG1_D0                     |                      | INPUT     |
+ P47    |                               |                      | UNUSED    |
+ P48    |                               |                      | UNUSED    |
+ P49    | U1/RG3_D1                     |                      | INPUT     |
+ P50    | U1/RG3_D0                     |                      | INPUT     |
+ P51    | H4/RG2_D3                     |                      | INPUT     |
+ P52    |                               | GND                  |           |
+ P53    |                               | DONE                 |           |
+ P54    |                               | VCC                  |           |
+ P55    |                               | /PROG                |           |
+ P56    | H4/RG2_D2                     |                      | INPUT     |
+ P57    | H4/RG2_D1                     |                      | INPUT     |
+ P58    | H4/RG2_D0                     |                      | INPUT     |
+ P59    | H2/NZ_1                       |                      | INPUT     |
+ P60    | H2/NR_1                       |                      | INPUT     |
+ P61    | H2/GI_GOI                     |                      | INPUT     |
+ P62    | H2/NZ_2                       |                      | INPUT     |
+ P63    |                               | VCC                  |           |
+ P64    |                               | GND                  |           |
+ P65    | H2/NR_2                       |                      | INPUT     |
+ P66    |                               |                      | UNUSED    |
+ P67    |                               |                      | UNUSED    |
+ P68    |                               |                      | UNUSED    |
+ P69    |                               |                      | UNUSED    |
+ P70    |                               |                      | UNUSED    |
+ P71    |                               |                      | UNUSED    |
+ P72    |                               |                      | UNUSED    |
+ P73    |                               | CCLK                 |           |
+ P74    |                               | VCC                  |           |
+ P75    |                               | TDO                  |           |
+ P76    |                               | GND                  |           |
+ P77    |                               |                      | UNUSED    |
+ P78    |                               |                      | UNUSED    |
+ P79    |                               |                      | UNUSED    |
+ P80    |                               |                      | UNUSED    |
+ P81    |                               |                      | UNUSED    |
+ P82    |                               |                      | UNUSED    |
+ P83    |                               |                      | UNUSED    |
+ P84    |                               |                      | UNUSED    |
+--------|-------------------------------|----------------------|-----------|
+
+* Default value.
+** This default Pullup/Pulldown value can be overridden in Bitgen.
+*** The default IOB Delay is determined by how the IOB is used.
+
+
+#
+# To preserve the pinout above for future design iterations,
+# simply invoke PIN2UCF from the command line or issue this command in the GUI.
+# For Foundation ISE/Project Navigator - Run the process "Implement Design" -> "Place-and-Route" -> "Back-annotate Pin Locations"
+# For Design Manager - In the Design menu select "Lock Pins...
+# The location constraints above will be written into your specified UCF file. (The constraints
+# listed below are in PCF format and cannot be directly used in the UCF file).
+#
+COMP "H10/$Net00043_" LOCATE = SITE "P25" ; 
+COMP "H10/$Net00044_" LOCATE = SITE "P20" ; 
+COMP "H2/CLK11059" LOCATE = SITE "P35" ; 
+COMP "H2/GI_GOI" LOCATE = SITE "P61" ; 
+COMP "H2/NR_1" LOCATE = SITE "P60" ; 
+COMP "H2/NR_2" LOCATE = SITE "P65" ; 
+COMP "H2/NZ_1" LOCATE = SITE "P59" ; 
+COMP "H2/NZ_2" LOCATE = SITE "P62" ; 
+COMP "H3/RG1_D0" LOCATE = SITE "P46" ; 
+COMP "H3/RG1_D1" LOCATE = SITE "P45" ; 
+COMP "H3/RG1_D2" LOCATE = SITE "P44" ; 
+COMP "H3/RG1_D3" LOCATE = SITE "P40" ; 
+COMP "H4/RG2_D0" LOCATE = SITE "P58" ; 
+COMP "H4/RG2_D1" LOCATE = SITE "P57" ; 
+COMP "H4/RG2_D2" LOCATE = SITE "P56" ; 
+COMP "H4/RG2_D3" LOCATE = SITE "P51" ; 
+COMP "H5/$Net00009_" LOCATE = SITE "P14" ; 
+COMP "H5/$Net00010_" LOCATE = SITE "P9" ; 
+COMP "H5/$Net00011_" LOCATE = SITE "P6" ; 
+COMP "H5/$Net00012_" LOCATE = SITE "P3" ; 
+COMP "H6/$Net00001_" LOCATE = SITE "P39" ; 
+COMP "H6/$Net00002_" LOCATE = SITE "P36" ; 
+COMP "H6/$Net00003_" LOCATE = SITE "P27" ; 
+COMP "H6/$Net00004_" LOCATE = SITE "P24" ; 
+COMP "H7/$Net00025_" LOCATE = SITE "P18" ; 
+COMP "H7/$Net00026_" LOCATE = SITE "P10" ; 
+COMP "H7/$Net00027_" LOCATE = SITE "P7" ; 
+COMP "H7/$Net00028_" LOCATE = SITE "P4" ; 
+COMP "H8/$Net00033_" LOCATE = SITE "P38" ; 
+COMP "H8/$Net00034_" LOCATE = SITE "P29" ; 
+COMP "H8/$Net00035_" LOCATE = SITE "P26" ; 
+COMP "H8/$Net00036_" LOCATE = SITE "P23" ; 
+COMP "H9/$Net00037_" LOCATE = SITE "P19" ; 
+COMP "H9/$Net00038_" LOCATE = SITE "P13" ; 
+COMP "H9/$Net00039_" LOCATE = SITE "P8" ; 
+COMP "H9/$Net00040_" LOCATE = SITE "P5" ; 
+COMP "U1/RG3_D0" LOCATE = SITE "P50" ; 
+COMP "U1/RG3_D1" LOCATE = SITE "P49" ; 
+#

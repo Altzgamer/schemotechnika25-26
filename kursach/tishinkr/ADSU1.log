@@ -1,0 +1,35 @@
+Initialize DPM...
+
+Checking license...
+
+License check OK.
+
+Source:	C:\Xilinx\active\projects\vitek\ADSU1.vhd.
+Family: 	SPARTAN.
+Device:	S10PC84-3.
+
+Create project...
+Create file...
+Analyze source file...
+Create chip...
+	Warning: Variable 'sum' is being read 
+	in routine adsu1 line 28 in file 'C:/Xilinx/active/projects/vitek/ADSU1.vhd', 
+	but is not in the process sensitivity list of the block which begins 
+	there.  (HDL-179)
+	Warning: Variable 'bo' is being read 
+	in routine adsu1 line 28 in file 'C:/Xilinx/active/projects/vitek/ADSU1.vhd', 
+	but is not in the process sensitivity list of the block which begins 
+	there.  (HDL-179)
+	Warning: Variable 'co_add' is being read 
+	in routine adsu1 line 28 in file 'C:/Xilinx/active/projects/vitek/ADSU1.vhd', 
+	but is not in the process sensitivity list of the block which begins 
+	there.  (HDL-179)
+	Warning: Variable 'bi' is being read 
+	in routine adsu1 line 28 in file 'C:/Xilinx/active/projects/vitek/ADSU1.vhd', 
+	but is not in the process sensitivity list of the block which begins 
+	there.  (HDL-179)
+	Warning: Latch inferred in design 'adsu1' read with
+	'hdlin_check_no_latch'.  (HDL-307)
+Optimize chip...
+Export chip...
+Done.

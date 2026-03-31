@@ -1,0 +1,342 @@
+(edif  KC
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap
+    (keywordLevel 0)
+  )
+  (status
+    (written
+      (timeStamp 2025 12 28 14 49 37)
+      (program "UNKNOWN"
+	(version "3.6.1.6817")
+      )
+      (author "user")
+    )
+  )
+  (external SPARTAN
+    (edifLevel 0)
+    (technology
+      (numberDefinition)
+    )
+    (cell AND2
+      (cellType GENERIC)
+      (view Netlist_representation
+	(viewType NETLIST)
+	(interface
+	  (port O
+	    (direction OUTPUT)
+	  )
+	  (port I1
+	    (direction INPUT)
+	  )
+	  (port I0
+	    (direction INPUT)
+	  )
+	)
+      )
+    )
+    (cell AND3
+      (cellType GENERIC)
+      (view Netlist_representation
+	(viewType NETLIST)
+	(interface
+	  (port O
+	    (direction OUTPUT)
+	  )
+	  (port I2
+	    (direction INPUT)
+	  )
+	  (port I1
+	    (direction INPUT)
+	  )
+	  (port I0
+	    (direction INPUT)
+	  )
+	)
+      )
+    )
+    (cell INV
+      (cellType GENERIC)
+      (view Netlist_representation
+	(viewType NETLIST)
+	(interface
+	  (port O
+	    (direction OUTPUT)
+	  )
+	  (port I
+	    (direction INPUT)
+	  )
+	)
+      )
+    )
+    (cell FMAP
+      (cellType GENERIC)
+      (view Netlist_representation
+	(viewType NETLIST)
+	(interface
+	  (port I1
+	    (direction INPUT)
+	  )
+	  (port I2
+	    (direction INPUT)
+	  )
+	  (port I3
+	    (direction INPUT)
+	  )
+	  (port I4
+	    (direction INPUT)
+	  )
+	  (port O
+	    (direction INPUT)
+	  )
+	)
+      )
+    )
+  )
+  (library DESIGNS
+    (edifLevel 0)
+    (technology
+      (numberDefinition)
+    )
+    (cell KC
+      (cellType GENERIC)
+      (view Netlist_representation
+	(viewType NETLIST)
+	(interface
+	  (port I0
+	    (direction INPUT)
+	  )
+	  (port I1
+	    (direction INPUT)
+	  )
+	  (port I2
+	    (direction INPUT)
+	  )
+	  (port I3
+	    (direction INPUT)
+	  )
+	  (port O3
+	    (direction OUTPUT)
+	  )
+	  (port O2
+	    (direction OUTPUT)
+	  )
+	  (port O1
+	    (direction OUTPUT)
+	  )
+	  (port O0
+	    (direction OUTPUT)
+	  )
+	)
+	(contents
+	  (instance C0
+	    (viewRef Netlist_representation
+	      (cellRef FMAP
+		(libraryRef SPARTAN)
+	      )
+	    )
+	  )
+	  (instance C1
+	    (viewRef Netlist_representation
+	      (cellRef INV
+		(libraryRef SPARTAN)
+	      )
+	    )
+	  )
+	  (instance C2
+	    (viewRef Netlist_representation
+	      (cellRef INV
+		(libraryRef SPARTAN)
+	      )
+	    )
+	  )
+	  (instance C3
+	    (viewRef Netlist_representation
+	      (cellRef INV
+		(libraryRef SPARTAN)
+	      )
+	    )
+	  )
+	  (instance C4
+	    (viewRef Netlist_representation
+	      (cellRef INV
+		(libraryRef SPARTAN)
+	      )
+	    )
+	  )
+	  (instance C5
+	    (viewRef Netlist_representation
+	      (cellRef AND3
+		(libraryRef SPARTAN)
+	      )
+	    )
+	  )
+	  (instance C6
+	    (viewRef Netlist_representation
+	      (cellRef AND2
+		(libraryRef SPARTAN)
+	      )
+	    )
+	  )
+	  (instance C7
+	    (viewRef Netlist_representation
+	      (cellRef AND2
+		(libraryRef SPARTAN)
+	      )
+	    )
+	  )
+	  (instance C8
+	    (viewRef Netlist_representation
+	      (cellRef AND2
+		(libraryRef SPARTAN)
+	      )
+	    )
+	  )
+	  (net O0
+	    (joined
+	      (portRef I0)
+	      (portRef O0)
+	      (portRef I4
+		(instanceRef C0)
+	      )
+	      (portRef I1
+		(instanceRef C8)
+	      )
+	    )
+	  )
+	  (net O1
+	    (joined
+	      (portRef I1)
+	      (portRef O1)
+	      (portRef I3
+		(instanceRef C0)
+	      )
+	      (portRef I1
+		(instanceRef C7)
+	      )
+	    )
+	  )
+	  (net O2
+	    (joined
+	      (portRef I2)
+	      (portRef O2)
+	      (portRef I2
+		(instanceRef C0)
+	      )
+	      (portRef I1
+		(instanceRef C6)
+	      )
+	    )
+	  )
+	  (net I3
+	    (joined
+	      (portRef I3)
+	      (portRef I1
+		(instanceRef C0)
+	      )
+	      (portRef I0
+		(instanceRef C6)
+	      )
+	      (portRef I0
+		(instanceRef C7)
+	      )
+	      (portRef I0
+		(instanceRef C8)
+	      )
+	    )
+	  )
+	  (net
+	    (rename C0_N5 "C0/N5")
+	    (joined
+	      (portRef O3)
+	      (portRef O
+		(instanceRef C0)
+	      )
+	      (portRef O
+		(instanceRef C1)
+	      )
+	    )
+	  )
+	  (net N0
+	    (joined
+	      (portRef I
+		(instanceRef C1)
+	      )
+	      (portRef O
+		(instanceRef C5)
+	      )
+	    )
+	  )
+	  (net N1
+	    (joined
+	      (portRef O
+		(instanceRef C2)
+	      )
+	      (portRef I0
+		(instanceRef C5)
+	      )
+	    )
+	  )
+	  (net N2
+	    (joined
+	      (portRef I
+		(instanceRef C2)
+	      )
+	      (portRef O
+		(instanceRef C6)
+	      )
+	    )
+	  )
+	  (net N3
+	    (joined
+	      (portRef O
+		(instanceRef C3)
+	      )
+	      (portRef I1
+		(instanceRef C5)
+	      )
+	    )
+	  )
+	  (net N4
+	    (joined
+	      (portRef I
+		(instanceRef C3)
+	      )
+	      (portRef O
+		(instanceRef C7)
+	      )
+	    )
+	  )
+	  (net N5
+	    (joined
+	      (portRef O
+		(instanceRef C4)
+	      )
+	      (portRef I2
+		(instanceRef C5)
+	      )
+	    )
+	  )
+	  (net N6
+	    (joined
+	      (portRef I
+		(instanceRef C4)
+	      )
+	      (portRef O
+		(instanceRef C8)
+	      )
+	    )
+	  )
+	)
+      )
+    )
+  )
+  (design KC
+    (cellRef KC
+      (libraryRef DESIGNS)
+    )
+    (property PART
+      (string "S10-PC84-3")
+    )
+  )
+)

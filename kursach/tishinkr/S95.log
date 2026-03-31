@@ -1,0 +1,134 @@
+CM: 
+CM: Synthesizing...
+CM:  Error   L31/C0 : #0 Error: C:/Xilinx/active/projects/vitek/ADSU1.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Synthesizing...
+CM: 
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol 'ADSU1' successfully created
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol 'ADSU1' successfully created
+CM: 
+CM: Synthesizing...
+CM:  Error   L4/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 4   Invalid delimiter character: `K'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L4/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 4   Syntax error.  (VSS-1081) 
+CM:  Error   L15/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 15   Invalid delimiter character: `K'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 17   Invalid delimiter character: `K'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  Error   L28/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 28   Invalid delimiter character: `K'. (VSS-965)  (FPGA-hci-hdlc-unknown) 
+CM:  6 error(s) 0 warning(s) found
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Synthesizing...
+CM:  Error   L19/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Synthesizing...
+CM:  Error   L19/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Synthesizing...
+CM:  Error   L19/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/Xilinx/active/projects/vitek/0KC.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Synthesizing...
+CM:  Warning   L-1/C0 : #0 Warning: The net '/KC/O2' is a feed through net.  (FPGA-CHECK-9) 
+CM:  Warning   L-1/C0 : #0 Warning: The net '/KC/O0' is a feed through net.  (FPGA-CHECK-9) 
+CM:  Warning   L-1/C0 : #0 Warning: The net '/KC/O1' is a feed through net.  (FPGA-CHECK-9) 
+CM:  0 error(s) 3 warning(s) found
+CM: Synthesis succesful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol '0KC' successfully created
+CM: 
+CM: Synthesizing...
+CM: 
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol 'ADSU1' successfully created
+CM: 
+CM: Synthesizing...
+CM:  Error   L56/C0 : #0 Error: C:/Xilinx/active/projects/vitek/ADSU1.vhd  line 56   Ports of mode OUT or LINKAGE can not be read.  (VSS-793) 
+CM:  1 error(s) 0 warning(s) found
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Synthesizing...
+CM:  Warning   L28/C0 : #0 Warning: Variable 'sum' is being read    in routine adsu1 line 28 in file 'C:/Xilinx/active/projects/vitek/ADSU1.vhd',    but is not in the process sensitivity list of the block which begins    there.  (HDL-179) 
+CM:  Warning   L28/C0 : #0 Warning: Variable 'bo' is being read    in routine adsu1 line 28 in file 'C:/Xilinx/active/projects/vitek/ADSU1.vhd',    but is not in the process sensitivity list of the block which begins    there.  (HDL-179) 
+CM:  Warning   L28/C0 : #0 Warning: Variable 'co_add' is being read    in routine adsu1 line 28 in file 'C:/Xilinx/active/projects/vitek/ADSU1.vhd',    but is not in the process sensitivity list of the block which begins    there.  (HDL-179) 
+CM:  Warning   L28/C0 : #0 Warning: Variable 'bi' is being read    in routine adsu1 line 28 in file 'C:/Xilinx/active/projects/vitek/ADSU1.vhd',    but is not in the process sensitivity list of the block which begins    there.  (HDL-179) 
+CM:  Warning   L-1/C0 : #0 Warning: Latch inferred in design 'adsu1' read with   'hdlin_check_no_latch'.  (HDL-307) 
+CM:  0 error(s) 5 warning(s) found
+CM: Synthesis succesful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol 'ADSU1' successfully created
+CM: 
+CM: Synthesizing...
+CM: 
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol '3KC' successfully created
+CM: 
+CM: Synthesizing...
+CM:  Error   L24/C0 : #0 Error: C:/Xilinx/active/projects/vitek/3KC.vhd  line 24   U14 is not declared. (VSS-575)  (FPGA-hci-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Synthesizing...
+CM: 
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol '3KC' successfully created
+CM: 
+CM: Synthesizing...
+CM: 
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol '4KC' successfully created
+CM: 
+CM: Synthesizing...
+CM: 
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol '5KC' successfully created
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol '0KC' successfully created
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol '5KC' successfully created
+CM: 
+CM: Synthesis Successful
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol '4KC' successfully created
+CM: 
+CM: Synthesis Successful
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol '3KC' successfully created

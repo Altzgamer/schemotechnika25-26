@@ -1,0 +1,20 @@
+CONV_ACS, 2.5.5.78, Mon Dec 29 16:32:31 2025
+
+Import EDIF netlist 'C:\XILINX\ACTIVE\PROJECTS\VITEK\3KC.edf'
+Symbol 'sub_ctrl', port 'A<3>' has been renamed to 'A3'
+Symbol 'sub_ctrl', port 'A<2>' has been renamed to 'A2'
+Symbol 'sub_ctrl', port 'A<1>' has been renamed to 'A1'
+Symbol 'sub_ctrl', port 'A<0>' has been renamed to 'A0'
+Symbol 'sub_ctrl', port 'B<3>' has been renamed to 'B3'
+Symbol 'sub_ctrl', port 'B<2>' has been renamed to 'B2'
+Symbol 'sub_ctrl', port 'B<1>' has been renamed to 'B1'
+Symbol 'sub_ctrl', port 'B<0>' has been renamed to 'B0'
+Symbol 'sub_ctrl', port 'A<3>' has been renamed to 'A3'
+Symbol 'sub_ctrl', port 'A<2>' has been renamed to 'A2'
+Symbol 'sub_ctrl', port 'A<1>' has been renamed to 'A1'
+Symbol 'sub_ctrl', port 'A<0>' has been renamed to 'A0'
+Symbol 'sub_ctrl', port 'B<3>' has been renamed to 'B3'
+Symbol 'sub_ctrl', port 'B<2>' has been renamed to 'B2'
+Symbol 'sub_ctrl', port 'B<1>' has been renamed to 'B1'
+Symbol 'sub_ctrl', port 'B<0>' has been renamed to 'B0'
+Import EDIF netlist finished successfully

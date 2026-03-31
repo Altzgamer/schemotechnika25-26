@@ -1,0 +1,223 @@
+Release 4.1.03i - Map E.30
+Xilinx Mapping Report File for Design 'tishinkr'
+Copyright (c) 1995-2001 Xilinx, Inc.  All rights reserved.
+
+Design Information
+------------------
+Command Line   : m1map -p xcs10-3-pc84 -o map.ncd tishinkr.ngd tishinkr.pcf 
+Target Device  : xs10
+Target Package : pc84
+Target Speed   : -3
+Mapper Version : spartan -- E.30
+
+Design Summary
+--------------
+   Number of errors:        0
+   Number of warnings:      2
+   Number of CLBs:             39 out of   196   19%
+      CLB Flip Flops:      28
+      4 input LUTs:        68
+      3 input LUTs:        11 (1 used as route-throughs)
+   Number of bonded IOBs:      38 out of    61   62%
+      IOB Flops:            0
+      IOB Latches:          0
+   Number of clock IOB pads:    1 out of     8   12%
+   Number of primary CLKs:      1 out of     4   25%
+   Number of secondary CLKs:    1 out of     4   25%
+   Number of RPM macros:        1
+Total equivalent gate count for design: 642
+Additional JTAG gate count for IOBs:    1824
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group Summary
+Section 10 - Modular Design Summary
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:OldMap:78 - All of the external outputs in this design are using
+   slew-rate-limited output drivers.  The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the original
+   design.  Please see your vendor interface documentation for specific
+   information on how to do this within your design-entry tool.
+   Note: You should be careful not to designate too many outputs which switch
+   together as fast, because this can cause excessive ground bounce.  For more
+   information on this subject, please refer to the IOB switching characteristic
+   guidelines for the device you are using in the Programmable Logic Data Book.
+WARNING:OldMap:548 - All the logic for "FMAP symbol "$I44/$1I273" (output
+   signal=$I44/OFL)" has been removed!  This may be caused by key logic being
+   trimmed.  Please consult the Removed Logic section of this report to see if
+   this is the case.
+
+Section 3 - Informational
+-------------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  23 block(s) removed
+  20 block(s) optimized away
+  21 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "H1/CO" is loadless and has been removed.
+ Loadless block "H1/$I111/H1/CO" (X_OR2) removed.
+  The signal "H1/CO/2.0" is loadless and has been removed.
+   Loadless block "H1/$I111/H1/CO/2.0" (X_OR2) removed.
+    The signal "H1/$Net00106_" is loadless and has been removed.
+     Loadless block "H1/$I107" (AND2) removed.
+    The signal "H1/$Net00105_" is loadless and has been removed.
+     Loadless block "H1/$I108" (AND2) removed.
+  The signal "H1/$Net00107_" is loadless and has been removed.
+   Loadless block "H1/$I109" (AND2) removed.
+The signal "MYY_COUNTER/CEO" is loadless and has been removed.
+ Loadless block "MYY_COUNTER/$1I52" (AND2) removed.
+  The signal "MYY_COUNTER/TC" is loadless and has been removed.
+   Loadless block "MYY_COUNTER/$1I37" (AND2) removed.
+The signal "U1/D2" is loadless and has been removed.
+ Loadless block "U1/$I1" (IBUF) removed.
+  The signal "U1/RG3_D2" is loadless and has been removed.
+   Loadless block "U1/$I4" (IPAD) removed.
+The signal "U1/D3" is loadless and has been removed.
+ Loadless block "U1/$I7" (IBUF) removed.
+  The signal "U1/RG3_D3" is loadless and has been removed.
+   Loadless block "U1/$I8" (IPAD) removed.
+The signal "H10/Q0" is sourceless and has been removed.
+ Sourceless block "H10/$I57" (OBUF) removed.
+  The signal "H10/$Net00041_" is sourceless and has been removed.
+   Sourceless block "H10/$I53" (OPAD) removed.
+The signal "H10/Q1" is sourceless and has been removed.
+ Sourceless block "H10/$I56" (OBUF) removed.
+  The signal "H10/$Net00042_" is sourceless and has been removed.
+   Sourceless block "H10/$I52" (OPAD) removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "$I44/$Net00110_" is unused and has been removed.
+ Unused block "$I44/$1I215/$I44/$Net00110_" (X_OR2) removed.
+  The signal "$I44/$Net00110_/2.0" is unused and has been removed.
+   Unused block "$I44/$1I215/$I44/$Net00110_/2.0" (X_OR2) removed.
+    The signal "$I44/OOR1" is unused and has been removed.
+     Unused block "$I44/$1I257" (AND2) removed.
+    The signal "$I44/OOR2" is unused and has been removed.
+     Unused block "$I44/$1I218" (AND2) removed.
+  The signal "$I44/OOR3" is unused and has been removed.
+   Unused block "$I44/$1I254" (AND2) removed.
+The signal "$I44/OFL" is unused and has been removed.
+ Unused block "$I44/$1I253" (XOR2) removed.
+Unused block "U1/RG3_D2_PULLUP" (PULLUP) removed.
+Unused block "U1/RG3_D3_PULLUP" (PULLUP) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		$I109
+GND 		$I115
+GND 		$I121
+VCC 		$I145
+GND 		$I6
+GND 		$I7
+VCC 		H2/T0_GOI1/$1I40
+GND 		H2/T0_GOI1/$1I43
+VCC 		H2/T0_GOI2/$1I40
+GND 		H2/T0_GOI2/$1I43
+VCC 		H2/T1_GOI1/$1I40
+GND 		H2/T1_GOI1/$1I43
+VCC 		H2/T1_GOI2/$1I40
+GND 		H2/T1_GOI2/$1I43
+VCC 		MYY_COUNTER/$1I47
+AND2B1 		RA/MDL0/$1I7
+AND2B1 		RA/MDR3/$1I7
+AND2B1 		RB/MQ0/$1I7
+AND2B1 		RR30/MDL0/$1I7
+GND 		$I142
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - Added Logic
+-----------------------
+
+Section 7 - Expanded Logic
+--------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 8 - Signal Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 9 - Symbol Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 10 - IOB Properties
+---------------------------
+"H10/$Net00043_" (IOB) : SLEW=SLOW
+"H10/$Net00044_" (IOB) : SLEW=SLOW
+"H2/GI_GOI" (IOB) : PULLUP
+"H2/NR_1" (IOB) : PULLUP
+"H2/NR_2" (IOB) : PULLUP
+"H2/NZ_1" (IOB) : PULLUP
+"H2/NZ_2" (IOB) : PULLUP
+"H3/RG1_D0" (IOB) : PULLUP
+"H3/RG1_D1" (IOB) : PULLUP
+"H3/RG1_D2" (IOB) : PULLUP
+"H3/RG1_D3" (IOB) : PULLUP
+"H4/RG2_D0" (IOB) : PULLUP
+"H4/RG2_D1" (IOB) : PULLUP
+"H4/RG2_D2" (IOB) : PULLUP
+"H4/RG2_D3" (IOB) : PULLUP
+"H5/$Net00009_" (IOB) : SLEW=SLOW
+"H5/$Net00010_" (IOB) : SLEW=SLOW
+"H5/$Net00011_" (IOB) : SLEW=SLOW
+"H5/$Net00012_" (IOB) : SLEW=SLOW
+"H6/$Net00001_" (IOB) : SLEW=SLOW
+"H6/$Net00002_" (IOB) : SLEW=SLOW
+"H6/$Net00003_" (IOB) : SLEW=SLOW
+"H6/$Net00004_" (IOB) : SLEW=SLOW
+"H7/$Net00025_" (IOB) : SLEW=SLOW
+"H7/$Net00026_" (IOB) : SLEW=SLOW
+"H7/$Net00027_" (IOB) : SLEW=SLOW
+"H7/$Net00028_" (IOB) : SLEW=SLOW
+"H8/$Net00033_" (IOB) : SLEW=SLOW
+"H8/$Net00034_" (IOB) : SLEW=SLOW
+"H8/$Net00035_" (IOB) : SLEW=SLOW
+"H8/$Net00036_" (IOB) : SLEW=SLOW
+"H9/$Net00037_" (IOB) : SLEW=SLOW
+"H9/$Net00038_" (IOB) : SLEW=SLOW
+"H9/$Net00039_" (IOB) : SLEW=SLOW
+"H9/$Net00040_" (IOB) : SLEW=SLOW
+"U1/RG3_D0" (IOB) : PULLUP
+"U1/RG3_D1" (IOB) : PULLUP
+
+Section 11 - RPMs
+-----------------
+$I44/hset                                - 4 comp(s)
+
+Section 12 - Guide Report
+-------------------------
+Guide not run on this design.

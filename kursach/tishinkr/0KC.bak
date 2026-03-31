@@ -1,0 +1,28 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity KC is
+    port (
+        I0: in STD_LOGIC;
+        I1: in STD_LOGIC;
+        I2: in STD_LOGIC;
+        I3: in STD_LOGIC;
+        O3: out STD_LOGIC;
+        O2: out STD_LOGIC;
+        O1: out STD_LOGIC;
+        O0: out STD_LOGIC
+    );
+end KC;
+
+architecture KC_arch of KC is
+begin
+  if (I0 = '0' and I1 = '0' and I2 = '0') = '1' then
+  	O3 <- '0';
+  else
+  	O3 <- I3;
+  endif
+  
+  O2 <- I2;
+  O1 <- I1;
+  O0 <- I0;
+end KC_arch;

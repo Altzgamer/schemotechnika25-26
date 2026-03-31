@@ -1,0 +1,193 @@
+--------------------------------------------------------------------------------
+Release 4.1.03i - Trace E.30
+Copyright (c) 1995-2001 Xilinx, Inc.  All rights reserved.
+
+trce tishinkr.ncd tishinkr.pcf -e 3 -o tishinkr.twr -xml tishinkr.twx
+
+Design file:              tishinkr.ncd
+Physical constraint file: tishinkr.pcf
+Device,speed:             xcs10,-3 (D 1.3 FINAL)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+WARNING:Timing - No timing constraints found, doing default enumeration.
+2 circuit cycles found and disabled.
+
+  ----------------------------------------------------------------------
+ ! Warning: The following connections close cycles, and some paths      !
+ !          through these connections may not be analyzed.              !
+ !                                                                      !
+ ! Signal                            Driver            Load             !
+ ! --------------------------------  ----------------  ---------------- !
+ ! H2/$Net00007_                     CLB_R10C14.X      CLB_R10C14.F1    !
+ ! H2/$Net00018_                     CLB_R8C9.X        CLB_R8C9.F1      !
+  ---------------------------------------------------------------------- 
+
+
+================================================================================
+Timing constraint: Default period analysis
+
+ 759 items analyzed, 0 timing errors detected.
+ Minimum period is  36.812ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default net enumeration
+
+ 102 items analyzed, 0 timing errors detected.
+ Maximum net delay is  11.723ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock H2/CLK11059
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+H2/NR_1        |    4.202(R)|    0.843(R)|
+H2/NR_2        |    5.725(R)|    0.000(R)|
+H2/NZ_1        |    4.267(R)|    0.778(R)|
+H2/NZ_2        |    6.312(R)|    0.000(R)|
+H3/RG1_D0      |    1.545(R)|    0.875(R)|
+H3/RG1_D1      |   -2.392(R)|    6.281(R)|
+H3/RG1_D2      |   -1.582(R)|    5.471(R)|
+H3/RG1_D3      |   -3.322(R)|    6.757(R)|
+H4/RG2_D0      |   -3.354(R)|    6.614(R)|
+H4/RG2_D1      |   -0.212(R)|    2.632(R)|
+H4/RG2_D2      |   -3.070(R)|    5.490(R)|
+H4/RG2_D3      |    2.501(R)|    0.000(R)|
+U1/RG3_D0      |   26.017(R)|    2.298(R)|
+U1/RG3_D1      |    9.217(R)|    0.000(R)|
+---------------+------------+------------+
+
+Setup/Hold to clock H2/GI_GOI
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+H3/RG1_D0      |    1.972(R)|    0.448(R)|
+H3/RG1_D1      |   -1.965(R)|    5.854(R)|
+H3/RG1_D2      |   -1.155(R)|    5.044(R)|
+H3/RG1_D3      |   -2.895(R)|    6.330(R)|
+H4/RG2_D0      |   -2.927(R)|    6.187(R)|
+H4/RG2_D1      |    0.215(R)|    2.205(R)|
+H4/RG2_D2      |   -2.643(R)|    5.063(R)|
+H4/RG2_D3      |    2.928(R)|    0.000(R)|
+U1/RG3_D0      |   26.444(R)|    1.871(R)|
+U1/RG3_D1      |    9.644(R)|    0.000(R)|
+---------------+------------+------------+
+
+Clock H2/CLK11059 to Pad
+---------------+------------+
+               | clk (edge) |
+Destination Pad|   to PAD   |
+---------------+------------+
+H10/$Net00043_ |   28.422(R)|
+H10/$Net00044_ |   22.682(R)|
+H5/$Net00009_  |   28.560(R)|
+H5/$Net00010_  |   27.249(R)|
+H5/$Net00011_  |   24.407(R)|
+H5/$Net00012_  |   23.736(R)|
+H6/$Net00001_  |   24.333(R)|
+H6/$Net00002_  |   27.205(R)|
+H6/$Net00003_  |   24.781(R)|
+H6/$Net00004_  |   25.678(R)|
+H7/$Net00025_  |   23.112(R)|
+H7/$Net00026_  |   24.344(R)|
+H7/$Net00027_  |   24.420(R)|
+H7/$Net00028_  |   24.643(R)|
+H8/$Net00033_  |   24.447(R)|
+H8/$Net00034_  |   26.171(R)|
+H8/$Net00035_  |   24.744(R)|
+H8/$Net00036_  |   24.694(R)|
+H9/$Net00037_  |   23.384(R)|
+H9/$Net00038_  |   25.195(R)|
+H9/$Net00039_  |   29.894(R)|
+H9/$Net00040_  |   25.287(R)|
+---------------+------------+
+
+Clock H2/GI_GOI to Pad
+---------------+------------+
+               | clk (edge) |
+Destination Pad|   to PAD   |
+---------------+------------+
+H10/$Net00043_ |   27.995(R)|
+H10/$Net00044_ |   22.255(R)|
+H5/$Net00009_  |   28.133(R)|
+H5/$Net00010_  |   26.822(R)|
+H5/$Net00011_  |   23.980(R)|
+H5/$Net00012_  |   23.309(R)|
+H6/$Net00001_  |   23.906(R)|
+H6/$Net00002_  |   26.778(R)|
+H6/$Net00003_  |   24.354(R)|
+H6/$Net00004_  |   25.251(R)|
+H7/$Net00025_  |   22.685(R)|
+H7/$Net00026_  |   23.917(R)|
+H7/$Net00027_  |   23.993(R)|
+H7/$Net00028_  |   24.216(R)|
+H8/$Net00033_  |   24.020(R)|
+H8/$Net00034_  |   25.744(R)|
+H8/$Net00035_  |   24.317(R)|
+H8/$Net00036_  |   24.267(R)|
+H9/$Net00037_  |   22.957(R)|
+H9/$Net00038_  |   24.768(R)|
+H9/$Net00039_  |   29.467(R)|
+H9/$Net00040_  |   24.860(R)|
+---------------+------------+
+
+Clock to Setup on destination clock H2/CLK11059
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+H2/CLK11059    |   31.593|         |         |         |
+H2/GI_GOI      |   31.593|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock H2/GI_GOI
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+H2/CLK11059    |   32.020|         |         |         |
+H2/GI_GOI      |   31.593|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+U1/RG3_D0      |H10/$Net00043_ |   22.822|
+---------------+---------------+---------+
+
+WARNING:Timing - Clock nets using non-dedicated resources were found in this
+   design. Clock skew on these resources will not be automatically addressed
+   during path analysis. To create a timing report that analyzes clock skew for
+   these paths, run trce with the '-skew' option.
+
+   The following clock nets use non-dedicated resources:
+      C  
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 759 paths, 102 nets, and 309 connections (100.0% coverage)
+
+Design statistics:
+   Minimum period:  36.812ns (Maximum frequency:  27.165MHz)
+   Maximum net delay:  11.723ns
+
+
+Analysis completed Tue Mar 31 03:48:10 2026
+--------------------------------------------------------------------------------
+

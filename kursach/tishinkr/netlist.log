@@ -1,0 +1,246 @@
+EDIF netlist 'c:\xilinx\active\projects\tishinkr\xproj\ver1\rev1\time_sim.edn' loading v.2.99.1.10
+EDIF parser completed successfully
+Loading - c:\xilinx\active\projects\tishinkr\xproj\ver1\rev1\time_sim.edn
+Info 9239: The following node is loadless:
+   NODE: _I142.OUT, _Net00118_.
+Info 9239: The following node is loadless:
+   NODE: _I145.OUT, _Net00122_.
+Info 9240: The following node is sourceless:
+   NODE: H2_T0_GOI1.GSR, H2_T0_GOI2.GSR, H2_T1_GOI1.GSR, H2_T1_GOI2.GSR, _I137_GSR_OR_198.IN1, _I138_GSR_OR_199.IN1, _I139_GSR_OR_200.IN1, MYY_COUNTER.GSR, RA.GSR, RB.GSR, RZN_GSR_OR_201.IN1, RPR0_DFF_OUT_SETRESETX.IN1, RPR0_DFF_OUT_SETRESETY.IN1, Y8_DFF_OUT_SETRESETY.IN1, _Net00004__DFF_OUT_SETRESETX.IN1, _Net00008__DFF_OUT_SETRESETX.IN1...
+Info 9240: The following node is sourceless:
+   NODE: H10.GTS, H5.GTS, H6.GTS, H7.GTS, H8.GTS, H9.GTS, GTS.
+Info 9239: The following node is loadless:
+   NODE: _I44.OFL, NLW__I44_OFL_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: H10.Q0, NLW_H10_Q0_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: H10.Q1, NLW_H10_Q1_UNCONNECTED.
+Info 9239: The following node is loadless:
+   NODE: H1.CO, NLW_H1_CO_UNCONNECTED.
+Info 9239: The following node is loadless:
+   NODE: MYY_COUNTER.CEO, NLW_MYY_COUNTER_CEO_UNCONNECTED.
+Info 9239: The following node is loadless:
+   NODE: MYY_COUNTER.Q0, NLW_MYY_COUNTER_Q0_UNCONNECTED.
+Info 9239: The following node is loadless:
+   NODE: MYY_COUNTER.TC, NLW_MYY_COUNTER_TC_UNCONNECTED.
+Info 9239: The following node is loadless:
+   NODE: U1.D2, NLW_U1_D2_UNCONNECTED.
+Info 9239: The following node is loadless:
+   NODE: U1.D3, NLW_U1_D3_UNCONNECTED.
+Loading - _I103_0_1
+Loading - _I105_0_2
+Loading - _I106_0_3
+Loading - _I107_0_4
+Loading - _I116_0_5
+Loading - _I117_0_6
+Loading - _I118_0_7
+Loading - _I119_0_8
+Loading - _I120_0_9
+Loading - _I44_0_10
+Info 9240: The following node is sourceless:
+   NODE: _1I83.A0, NLW__1I83_A0_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I83.A1, NLW__1I83_A1_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I83.ADD, NLW__1I83_ADD_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I83.B0, NLW__1I83_B0_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I83.B1, NLW__1I83_B1_UNCONNECTED.
+Info 9239: The following node is loadless:
+   NODE: _1I83.COUT0, NLW__1I83_COUT0_UNCONNECTED.
+Info 9239: The following node is loadless:
+   NODE: _1I83.COUT, NLW__1I83_COUT_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I95.A1, NLW__1I95_A1_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I95.ADD, NLW__1I95_ADD_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I95.B0, NLW__1I95_B0_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I95.B1, NLW__1I95_B1_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I95.CIN, NLW__1I95_CIN_UNCONNECTED.
+Info 9239: The following node is loadless:
+   NODE: _1I95.COUT0, NLW__1I95_COUT0_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I96.ADD, NLW__1I96_ADD_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I97.A1, NLW__1I97_A1_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I97.ADD, NLW__1I97_ADD_UNCONNECTED.
+Info 9240: The following node is sourceless:
+   NODE: _1I97.B1, NLW__1I97_B1_UNCONNECTED.
+Loading - _1I259_10_11
+Loading - _1I45_10_12
+Loading - _1I83_10_13
+Loading - _1I94_10_14
+Loading - _1I95_10_15
+Loading - _1I96_10_16
+Loading - _1I97_10_17
+Loading - _1I98_10_18
+Loading - H1_0_19
+Loading - H10_0_20
+Loading - H2__I24_0_21
+Loading - H2_T0_GOI1_0_22
+Info 9239: The following node is loadless:
+   NODE: _1I43.OUT, _Net01050_.
+Loading - H2_T0_GOI2_0_23
+Info 9239: The following node is loadless:
+   NODE: _1I43.OUT, _Net01050_.
+Loading - H2_T1_GOI1_0_24
+Info 9239: The following node is loadless:
+   NODE: _1I43.OUT, _Net01050_.
+Loading - H2_T1_GOI2_0_25
+Info 9239: The following node is loadless:
+   NODE: _1I43.OUT, _Net01050_.
+Loading - H3_0_26
+Loading - H4_0_27
+Loading - H5_0_28
+Loading - H6_0_29
+Loading - H7_0_30
+Loading - H8_0_31
+Loading - H9_0_32
+Loading - MYY_COUNTER_0_33
+Loading - Q0_56_33_34
+Loading - Q1_57_33_35
+Loading - RA_0_36
+Loading - MDL0_35_36_37
+Loading - MDL1_36_36_38
+Loading - MDL2_37_36_39
+Loading - MDL3_38_36_40
+Loading - MDR0_39_36_41
+Loading - MDR1_40_36_42
+Loading - MDR2_41_36_43
+Loading - MDR3_42_36_44
+Loading - RB_0_45
+Loading - MQ0_45_46
+Loading - MQ1_45_47
+Loading - MQ2_45_48
+Loading - MQ3_45_49
+Loading - RR30_0_50
+Info 9239: The following node is loadless:
+   NODE: MDL0__1I7.OUT, MDL0_M0.
+Loading - MDL1_1_50_51
+Loading - MDL2_2_50_52
+Loading - MDL3_3_50_53
+Loading - U1_0_54
+Info 9239: The following node is loadless:
+   NODE:       NLW_U1_D3_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       NLW_U1_D3_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       NLW_U1_D2_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       NLW_U1_D2_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       NLW_MYY_COUNTER_TC_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       NLW_MYY_COUNTER_TC_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       NLW_MYY_COUNTER_CEO_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       NLW_MYY_COUNTER_CEO_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       NLW_H1_CO_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       NLW_H1_CO_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       NLW_H10_Q1_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       NLW_H10_Q1_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       NLW_H10_Q0_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       NLW_H10_Q0_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       NLW__I44_OFL_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       NLW__I44_OFL_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       GTS,       H10/GTS,       H5/GTS,       H6/GT...
+Info 9240: The following node is sourceless:
+   NODE: 
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I97_B1_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I97_B1_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I97_ADD_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I97_ADD_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I97_A1_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I97_A1_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I96_ADD_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I96_ADD_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I95_CIN_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I95_CIN_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I95_B1_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I95_B1_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I95_B0_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I95_B0_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I95_ADD_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I95_ADD_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I95_A1_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I95_A1_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I83_COUT_UNCONNECTED,       _I44/_1I83/COUT
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I83_B1_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I83_B1_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I83_B0_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I83_B0_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I83_ADD_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I83_ADD_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I83_A1_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I83_A1_UNCONNECTED
+Info 9239: The following node is loadless:
+   NODE:       _I44/NLW__1I83_A0_UNCONNECTED
+Info 9240: The following node is sourceless:
+   NODE:       _I44/NLW__1I83_A0_UNCONNECTED
+===============================
+EDIF Netlist Loading Statistics
+===============================
+Number of hierarchical blocks: 55
+Total number of cell types: 70
+Total number of cell instances: 772
+Total number of EDIF blocks: 54
+Total number of models taken from libraries: 8
+Total number of automatic/internal models: 7
+Total number of missing models: 0
+Total number of signals (block ports and labels): 1173
+Total number of labels: 742
+Total number of nets: 1076
+Total number of net elements: 3402
+Total number of generic values: 590
+Total number of port generic values: 425
+Memory usage statistics:
+    Total number of allocated memory blocks: 12126 (1227)
+    Total number of memory reallocations: 1
+    Total length of memory used to load the netlist: 1050 kB (26)
+    Total length of memory used by EDIF parser: 512 kB
+    Number of system memory blocks (total/long): 3/0
+Netlist loaded in: 2 seconds
+Parsing time: 0 seconds
+===============================

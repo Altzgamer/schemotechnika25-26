@@ -1,0 +1,4 @@
+C:\Xilinx\active\projects\vitek\0KC.vhd -1 0:W:#0 Warning: The net '/KC/O2' is a feed through net.  (FPGA-CHECK-9) 
+C:\Xilinx\active\projects\vitek\0KC.vhd -1 0:W:#0 Warning: The net '/KC/O0' is a feed through net.  (FPGA-CHECK-9) 
+C:\Xilinx\active\projects\vitek\0KC.vhd -1 0:W:#0 Warning: The net '/KC/O1' is a feed through net.  (FPGA-CHECK-9) 
+
