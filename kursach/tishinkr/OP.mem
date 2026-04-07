@@ -1,0 +1,17 @@
+;
+; memfile OP.mem for LogiBLOX symbol op
+; Created on Monday, April 06, 2026 12:27:04
+;
+; Header Section
+RADIX 10
+DEPTH 16
+WIDTH 8
+DEFAULT 0
+;
+; Data Section
+; Specifies data to be stored in different addresses
+; e.g., DATA 0:A, 1:0
+; DATA 00,3A,55
+RADIX 16
+DATA
+; end of LogiBLOX memfile

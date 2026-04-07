@@ -1,6 +1,6 @@
 [project]
 name=tishinkr
-netlist=c:\xilinx\active\projects\tishinkr\tishinkr.alb
+netlist=tishinkr
 contents=tishinkr
 date=02/17/26
 time=11:37:21
@@ -13,10 +13,9 @@ top_level=schematic
 library_net=ON
 sim_mode=FUNC
 synthesize_only=Off
-lib_order=1013 1003 133 167
-directory=C:\XILINX\ACTIVE\PROJECTS\TISHINKR
+lib_order=1023 1003 133 167
 [libraries]
-1013= 
+1023= 
 1003=c:\xilinx\active\syslib\maket_2
 133=c:\xilinx\active\syslib\simprims
 167=c:\xilinx\active\syslib\spartan
@@ -24,7 +23,7 @@ directory=C:\XILINX\ACTIVE\PROJECTS\TISHINKR
 libraries=unified
 family=2
 xact9=On
-xfam=Spartan
+xfam=SPARTAN
 [device]
 xilinx=S10PC84-3
 part=S10PC84-3
@@ -38,7 +37,8 @@ Table04=Date Last Modified
 [sheets]
 BO=
 MYY=
-standmyy=
+STANDMYY=
+BUK=
 
 
 
@@ -64,7 +64,6 @@ hde/=0,0,88,116,1528,802,0KC.vhd
 [Log]
 imp_EDIF.log=Import EDIF netlist
 netlist.log=Simulator Netlist Log
-exp_EDIF.log=Export netlist to EDIF 200
 [timings]
 ch_mul=
 ch_sub=
@@ -73,11 +72,6 @@ mch_sub1=
 mch_mul1=
 mch_sub2=
 mch_sub3=
-mul1=
-sub1=
-sub2=
-sub3=
-multimin=
 
 
 
@@ -109,26 +103,13 @@ multimin=
 
 
 
-[OPEN32]
-nMaxFile=255
-lpstrFile=tishink2.SCH
-lpstrFilter=Schematic (*.SCH)|*.sch||
-lpstrInitialDir=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\
-lpstrTitle=Save As
-nFilterIndex=1
-Flags=6
-cmdLine=-h 290 -hp 184 -m PCM_OPEN_32_MESSAGE -f C:\XILINX\ACTIVE\PROJECTS\current.pdf -s
 [implement_HDL]
 family=2
-xfam=Spartan
+xfam=SPARTAN
 part=S10PC84-3
 xilinx=S10PC84-3
 [FILE7]
-scan_time=1774957662
-[APP_95]
-lid=0
-oid=0
-source=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\STANDMYY.SCH
+scan_time=1774989913
 [sim_config]
 Lower Bound=2048
 Upper Bound=2048
@@ -143,7 +124,21 @@ Execute Preset=Off
 Models Stabilization=On
 Pulse Global Reset Net Enabled=On
 Pulse Global Reset Net=1000
+[OPEN32]
+nMaxFile=255
+lpstrFile=tishink4.SCH
+lpstrFilter=Schematic (*.SCH)|*.sch||
+lpstrInitialDir=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\
+lpstrTitle=Save As
+nFilterIndex=1
+Flags=6
+cmdLine=-h 630 -hp 636 -m PCM_OPEN_32_MESSAGE -f C:\XILINX\ACTIVE\PROJECTS\current.pdf -s
+[APP_95]
+lid=0
+oid=0
+source=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\BUK.SCH
 [sc_desk]
-desk00=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\BO.SCH, 0, 0, 1148, 580, 1
-desk01=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\STANDMYY.SCH, 44, 58, 1059, 355, 0
-desk02=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\MYY.SCH, 22, 29, 1170, 609, 0
+desk00=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\BUK.SCH, 66, 87, 1484, 854, 1
+desk01=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\STANDMYY.SCH, 110, 145, 1528, 912, 0
+desk02=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\MYY.SCH, 88, 116, 1506, 883, 0
+desk03=C:\XILINX\ACTIVE\PROJECTS\TISHINKR\BO.SCH, 66, 87, 1484, 854, 0

@@ -1,0 +1,24 @@
+# op.xmm created by ngd2edif E.33 on [Mon Apr 06 12:28:28 2026] .
+# 
+# This file contains information on the initial contents of each
+# RAM primitive. Depending on your simulation interface, the data
+# in this file might be required to correctly model the initial
+# contents of RAM components. (Some simulators will extract this
+# information directly from the EDIF netlist.)
+# 
+# Each line below represents a single RAM primitive in the EDIF
+# netlist. There are three tokens on each line, separated by white
+# space. The first token is the primitive type, and matches a 
+# symbol from the simprims library. The second token is the full
+# hierarchical instance name for the primitive. The third token is
+# the initial value for that primitive, expressed as a hexadecimal
+# number (the same convention used for INIT properties).
+# 
+X_RAMS16  MEM0_0  0x0000
+X_RAMS16  MEM1_0  0x0000
+X_RAMS16  MEM2_0  0x0000
+X_RAMS16  MEM3_0  0x0000
+X_RAMS16  MEM4_0  0x0000
+X_RAMS16  MEM5_0  0x0000
+X_RAMS16  MEM6_0  0x0000
+X_RAMS16  MEM7_0  0x0000
