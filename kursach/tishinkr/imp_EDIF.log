@@ -1,4 +1,4 @@
-CONV_ACS, 2.5.5.78, Mon Apr 06 12:28:31 2026
+CONV_ACS, 2.5.5.78, Wed Apr 08 03:38:38 2026
 
 Import EDIF netlist 'C:\XILINX\ACTIVE\PROJECTS\TISHINKR\op.edn'
 Symbol 'op', port 'A<0>' has been renamed to 'A0'

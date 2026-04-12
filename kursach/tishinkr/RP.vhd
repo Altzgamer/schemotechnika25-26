@@ -1,11 +1,12 @@
 ------------------------------------------------------
--- LogiBLOX SYNC_RAM Module "RP"
+-- LogiBLOX SYNC_RAM Module "rp"
 -- Created by LogiBLOX version E.30
---    on Mon Apr 06 12:25:29 2026
+--    on Tue Apr 07 02:18:29 2026
 -- Attributes 
 --    MODTYPE = SYNC_RAM
 --    BUS_WIDTH = 4
 --    DEPTH = 16
+--    MEMFILE = rp
 --    STYLE = MAX_SPEED
 --    USE_RPM = FALSE
 ------------------------------------------------------
@@ -21,17 +22,17 @@ USE logiblox.mvlarith.ALL;
 USE logiblox.logiblox.ALL;
 -- synopsys translate_on
 
-ENTITY RP IS
+ENTITY rp IS
   PORT(
     A: IN std_logic_vector(3 DOWNTO 0);
     DO: OUT std_logic_vector(3 DOWNTO 0);
     DI: IN std_logic_vector(3 DOWNTO 0);
     WR_EN: IN std_logic;
     WR_CLK: IN std_logic);
-END RP;
+END rp;
 
 -- synopsys translate_off
-ARCHITECTURE sim OF RP IS
+ARCHITECTURE sim OF rp IS
   SIGNAL START_PULSE: std_logic := '1';
   TYPE mem_data IS ARRAY (15 DOWNTO 0) OF std_logic_vector(3 DOWNTO 0);
 BEGIN
@@ -40,9 +41,9 @@ BEGIN
   VARIABLE first_time: BOOLEAN := TRUE;
   BEGIN
     IF (first_time) THEN
-      VD(0) := ('0','0','0','0');
-      VD(1) := ('0','0','0','0');
-      VD(2) := ('0','0','0','0');
+      VD(0) := ('1','1','0','0');
+      VD(1) := ('0','0','1','0');
+      VD(2) := ('0','0','1','0');
       VD(3) := ('0','0','0','0');
       VD(4) := ('0','0','0','0');
       VD(5) := ('0','0','0','0');

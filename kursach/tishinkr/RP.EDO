@@ -1,12 +1,12 @@
-(edif RP
+(edif rp
   (edifVersion 2 0 0)
   (edifLevel 0)
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timestamp 2026 4 6 12 25 29)
+      (timestamp 2026 4 7 2 18 29)
       (program "Xilinx ngd2edif" (version "E.33"))
-      (comment "Command line: -v fndtn -w -n C:/WINDOWS/TEMP/RP.ngd RP ")))
+      (comment "Command line: -v fndtn -w -n C:/WINDOWS/TEMP/rp.ngd rp ")))
   (external SIMPRIMS
     (edifLevel 0)
     (technology (numberDefinition
@@ -45,11 +45,11 @@
     )
   )
 
-  (library RP_lib
+  (library rp_lib
     (edifLevel 0)
     (technology (numberDefinition
       (scale 1 (E 1 -12) (unit TIME))))
-    (cell RP
+    (cell rp
       (cellType GENERIC)
         (view view_1
           (viewType NETLIST)
@@ -105,15 +105,15 @@
             )
             (instance MEM1_0
               (viewRef view_1 (cellRef x_rams16 (libraryRef SIMPRIMS)))
-              (property INIT (string "0000") (owner "Xilinx"))
+              (property INIT (string "0006") (owner "Xilinx"))
             )
             (instance MEM2_0
               (viewRef view_1 (cellRef x_rams16 (libraryRef SIMPRIMS)))
-              (property INIT (string "0000") (owner "Xilinx"))
+              (property INIT (string "0001") (owner "Xilinx"))
             )
             (instance MEM3_0
               (viewRef view_1 (cellRef x_rams16 (libraryRef SIMPRIMS)))
-              (property INIT (string "0000") (owner "Xilinx"))
+              (property INIT (string "0001") (owner "Xilinx"))
             )
             (net WR_EN
               (joined
@@ -222,9 +222,9 @@
     )
   )
 
-  (design RP
-    (cellRef RP
-      (libraryRef RP_lib)
+  (design rp
+    (cellRef rp
+      (libraryRef rp_lib)
     )
   )
 )

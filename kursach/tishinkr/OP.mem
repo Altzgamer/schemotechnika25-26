@@ -10,8 +10,8 @@ DEFAULT 0
 ;
 ; Data Section
 ; Specifies data to be stored in different addresses
-; e.g., DATA 0:A, 1:0
-; DATA 00,3A,55
+; e.g., DATA 0:A, 1:0 7
+;DAT  01,23,45,67,89,10 11,12 13, 14 15, 16 17, 18 19, 20 21, 22 23, 24 25, 26 27, 28 29,
 RADIX 16
-DATA
+DATA 01,42,89,9C,00,  73,     00,      00,      C7,      00,      00,     00,       00,     00,
 ; end of LogiBLOX memfile

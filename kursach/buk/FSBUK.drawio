@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="e2scBQ2mdhXmmdLp2TMm" name="Страница-1">
-    <mxGraphModel dx="80" dy="1261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="2063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -626,7 +626,7 @@
         <mxCell id="KFymulcoJLYfXLPjjIjb-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;YS8&lt;/span&gt;" vertex="1">
           <mxGeometry height="15" width="20" x="800" as="geometry" />
         </mxCell>
-        <mxCell id="KFymulcoJLYfXLPjjIjb-95" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A" vertex="1">
+        <mxCell id="KFymulcoJLYfXLPjjIjb-95" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="B" vertex="1">
           <mxGeometry height="17" width="20" x="850" y="63.5" as="geometry" />
         </mxCell>
         <mxCell id="KFymulcoJLYfXLPjjIjb-141" edge="1" parent="1" source="KFymulcoJLYfXLPjjIjb-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KFymulcoJLYfXLPjjIjb-135">
@@ -724,7 +724,7 @@
         <mxCell id="KFymulcoJLYfXLPjjIjb-144" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" value="" vertex="1">
           <mxGeometry height="3" width="3" x="638.5" y="443" as="geometry" />
         </mxCell>
-        <mxCell id="KFymulcoJLYfXLPjjIjb-147" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="B" vertex="1">
+        <mxCell id="KFymulcoJLYfXLPjjIjb-147" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="A" vertex="1">
           <mxGeometry height="16" width="24" x="723" y="429.25" as="geometry" />
         </mxCell>
         <mxCell id="KFymulcoJLYfXLPjjIjb-149" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.531;exitY=0.484;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
