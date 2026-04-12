@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timestamp 2026 4 8 3 38 34)
+      (timestamp 2026 4 12 8 16 33)
       (program "Xilinx ngd2edif" (version "E.33"))
       (comment "Command line: -v fndtn -w -n C:/WINDOWS/TEMP/op.ngd op ")))
   (external SIMPRIMS
@@ -125,11 +125,11 @@
           (contents
             (instance MEM0_0
               (viewRef view_1 (cellRef x_rams16 (libraryRef SIMPRIMS)))
-              (property INIT (string "0125") (owner "Xilinx"))
+              (property INIT (string "0105") (owner "Xilinx"))
             )
             (instance MEM1_0
               (viewRef view_1 (cellRef x_rams16 (libraryRef SIMPRIMS)))
-              (property INIT (string "0122") (owner "Xilinx"))
+              (property INIT (string "0102") (owner "Xilinx"))
             )
             (instance MEM2_0
               (viewRef view_1 (cellRef x_rams16 (libraryRef SIMPRIMS)))
@@ -141,19 +141,19 @@
             )
             (instance MEM4_0
               (viewRef view_1 (cellRef x_rams16 (libraryRef SIMPRIMS)))
-              (property INIT (string "0028") (owner "Xilinx"))
+              (property INIT (string "0108") (owner "Xilinx"))
             )
             (instance MEM5_0
               (viewRef view_1 (cellRef x_rams16 (libraryRef SIMPRIMS)))
-              (property INIT (string "0020") (owner "Xilinx"))
+              (property INIT (string "0100") (owner "Xilinx"))
             )
             (instance MEM6_0
               (viewRef view_1 (cellRef x_rams16 (libraryRef SIMPRIMS)))
-              (property INIT (string "0122") (owner "Xilinx"))
+              (property INIT (string "0002") (owner "Xilinx"))
             )
             (instance MEM7_0
               (viewRef view_1 (cellRef x_rams16 (libraryRef SIMPRIMS)))
-              (property INIT (string "010C") (owner "Xilinx"))
+              (property INIT (string "000C") (owner "Xilinx"))
             )
             (net WR_EN
               (joined

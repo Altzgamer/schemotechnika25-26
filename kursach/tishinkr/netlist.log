@@ -100,5 +100,5 @@ Memory usage statistics:
     Total number of memory reallocations: 3
     Total length of memory used to load the netlist: 512 kB (0)
     Number of system memory blocks (total/long): 2/0
-Netlist loaded in: 3 seconds
+Netlist loaded in: 5 seconds
 ===============================
