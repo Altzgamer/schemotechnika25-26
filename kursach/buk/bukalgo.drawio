@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
   <diagram name="Flowchart" id="fc1">
-    <mxGraphModel dx="484" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="1431" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -239,36 +239,6 @@
             <mxPoint x="608.5" y="833.5" as="sourcePoint" />
             <mxPoint x="608.5" y="793.5" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="vtaipfk5y4KH6T2tXjMy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="YS1,&lt;div&gt;YS7&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="38" x="512" y="122.5" as="geometry" />
-        </mxCell>
-        <mxCell id="vtaipfk5y4KH6T2tXjMy-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="COP0,&lt;div&gt;COP1&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="38" x="550" y="122.5" as="geometry" />
-        </mxCell>
-        <mxCell id="vtaipfk5y4KH6T2tXjMy-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="YS2,&lt;div&gt;YS7&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="38" x="511.5" y="304" as="geometry" />
-        </mxCell>
-        <mxCell id="vtaipfk5y4KH6T2tXjMy-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FP" vertex="1">
-          <mxGeometry height="40" width="38" x="549.5" y="304" as="geometry" />
-        </mxCell>
-        <mxCell id="vtaipfk5y4KH6T2tXjMy-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="YS5,&lt;div&gt;YS9&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="38" x="630" y="476" as="geometry" />
-        </mxCell>
-        <mxCell id="vtaipfk5y4KH6T2tXjMy-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="YS10" vertex="1">
-          <mxGeometry height="40" width="38" x="630" y="553.5" as="geometry" />
-        </mxCell>
-        <mxCell id="vtaipfk5y4KH6T2tXjMy-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="YS4,&lt;div&gt;YS8&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="38" x="630" y="633.5" as="geometry" />
-        </mxCell>
-        <mxCell id="vtaipfk5y4KH6T2tXjMy-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="YS11,&lt;div&gt;SNO&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="38" x="628" y="718.5" as="geometry" />
-        </mxCell>
-        <mxCell id="vtaipfk5y4KH6T2tXjMy-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SKO" vertex="1">
-          <mxGeometry height="40" width="38" x="628" y="793.5" as="geometry" />
-        </mxCell>
-        <mxCell id="vtaipfk5y4KH6T2tXjMy-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SKO" vertex="1">
-          <mxGeometry height="40" width="38" x="525" y="959" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
