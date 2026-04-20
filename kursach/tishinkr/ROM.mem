@@ -1,0 +1,16 @@
+;
+; memfile ROM.mem for LogiBLOX symbol rom
+; Created on Monday, April 20, 2026 04:21:14
+;
+; Header Section
+RADIX 10
+DEPTH 16
+WIDTH 20
+DEFAULT 0
+;
+; Data Section
+; Specifies data to be stored in different addresses
+; e.g., DATA 0:A, 1:0
+RADIX 16
+DATA 00082, 90000, A8084, 00220, 00400, 00110, 00801, D4000, 0E018, 9E000, C2000, 0E080, 0E040, 0F820, 00000, 00000
+; end of LogiBLOX memfile

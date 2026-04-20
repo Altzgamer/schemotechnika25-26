@@ -3,37 +3,9 @@ Loading - C:\XILINX\ACTIVE\PROJECTS\TISHINKR\tishinkr.alb
 Info 9240: The following node is sourceless:
    NODE: C, RA.C, RB.C, RZN.C, RPR0.C, RPR1.C, RR4.C, RR30.C, MYY_COUNTER.C, $I143.C, $I139.C, $I138.C, MYY_D2.C, $I134.C, $I136.C, $I249.C...
 Info 9240: The following node is sourceless:
-   NODE: CLR, RA.CLR, RB.CLR, RZN.CLR, RPR0.CLR, RPR1.CLR, $I244.I0, $I243.I0, $I143.CLR, $I249.CLR, $I248.CLR, RK2.R, RK1.R, RIA.R, BR1.CLR, BR2.CLR.
+   NODE: CLR, RA.CLR, RB.CLR, RZN.CLR, RPR0.CLR, RPR1.CLR, $I244.I0, $I243.I0, $I143.CLR, $I249.CLR, $I248.CLR, RK2.R, RK1.R, RIA.R, BR1.CLR, BR2.CLR...
 Info 9240: The following node is sourceless:
-   NODE: SNO, $I144.I1, MYY_COUNTER.CLR, $I134.CLR, MYY_D2.CLR, $I138.CLR, $I139.CLR, $I136.PRE.
-Info 9240: The following node is sourceless:
-   NODE: YS6, $I249.L.
-Info 9240: The following node is sourceless:
-   NODE: YS7, $I249.CE.
-Info 9240: The following node is sourceless:
-   NODE: YS1, RK1.CE.
-Info 9240: The following node is sourceless:
-   NODE: YS2, RK2.CE.
-Info 9239: The following node is loadless:
-   NODE: FP, $I258.O.
-Info 9240: The following node is sourceless:
-   NODE: YS10, RIA.CE.
-Info 9240: The following node is sourceless:
-   NODE: YS4, $I262.S0, $I266.S0, $I265.S0, $I264.S0, $I263.S0.
-Info 9239: The following node is loadless:
-   NODE: COP1, $I260.O.
-Info 9240: The following node is sourceless:
-   NODE: YS5, $I279.S0, $I278.S0, $I277.S0.
-Info 9240: The following node is sourceless:
-   NODE: YS11, RP.WR_EN.
-Info 9240: The following node is sourceless:
-   NODE: YS9, BR1.CE.
-Info 9240: The following node is sourceless:
-   NODE: YS8, BR2.CE.
-Info 9240: The following node is sourceless:
-   NODE: YS12, $I289.S0, $I288.S0, $I287.S0, $I286.S0.
-Info 9240: The following node is sourceless:
-   NODE: YS3, OP.WR_EN.
+   NODE: START, $I308.I2.
 Loading - SR4CLED
    Loading library default timing values
 Loading - M2_1
@@ -64,41 +36,17 @@ Loading - OP
    Forcing zero-delay default timing values
 Loading - FD4CE
    Forcing zero-delay default timing values
-Info 9240: The following node is sourceless:
-   NODE:       YS3,       OP/WR_EN
-Info 9240: The following node is sourceless:
-   NODE:       YS12,       $I289/S0,       $I288/S0,       $I287/S0,       $I286/S0
-Info 9240: The following node is sourceless:
-   NODE:       YS8,       BR2/CE
-Info 9240: The following node is sourceless:
-   NODE:       YS9,       BR1/CE
-Info 9240: The following node is sourceless:
-   NODE:       YS11,       RP/WR_EN
-Info 9240: The following node is sourceless:
-   NODE:       YS5,       $I279/S0,       $I278/S0,       $I277/S0
-Info 9240: The following node is sourceless:
-   NODE:       YS4,       $I262/S0,       $I266/S0,       $I265/S0,       $I264/S...
-Info 9240: The following node is sourceless:
-   NODE:       YS10,       RIA/CE,       RIA/Q0/CE,       RIA/Q1/CE,       RIA/Q2/CE
-Info 9240: The following node is sourceless:
-   NODE:       YS2,       RK2/CE,       RK2/Q0/CE,       RK2/Q1/CE,       RK2/Q2/CE
-Info 9240: The following node is sourceless:
-   NODE:       YS1,       RK1/CE,       RK1/Q0/CE,       RK1/Q1/CE,       RK1/Q2/CE
-Info 9240: The following node is sourceless:
-   NODE:       YS7,       $I249/CE
-Info 9240: The following node is sourceless:
-   NODE:       YS6,       $I249/L,       $I249/Q3/L,       $I249/Q2/L,       $I249/Q0/L,       $I249/Q1/L
-Info 9240: The following node is sourceless:
-   NODE:       SNO,       MYY_COUNTER/CLR,       MYY_COUNTER/Q0/CLR,       MYY_COUNTER/Q1/CLR
+Loading - ROM
+   Forcing zero-delay default timing values
 Info 9240: The following node is sourceless:
    NODE:       CLR
 Info 9240: The following node is sourceless:
    NODE:       C
 ===============================
 Memory usage statistics:
-    Total number of allocated memory blocks: 658 (0)
+    Total number of allocated memory blocks: 720 (0)
     Total number of memory reallocations: 3
     Total length of memory used to load the netlist: 512 kB (0)
     Number of system memory blocks (total/long): 2/0
-Netlist loaded in: 5 seconds
+Netlist loaded in: 7 seconds
 ===============================
